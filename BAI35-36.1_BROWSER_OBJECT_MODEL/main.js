@@ -76,13 +76,14 @@
 
 
 */
+
 //#4.3 getElementByTagName
 console.log("getElementsByTagName");
 let li_item = document.getElementsByTagName("li");
 console.log(li_item); //trả về mảng các phần tử li
 //Có thể kiểm tra xem mảng có bao nhiêu phần tử
 console.log(li_item.length);
-//Sử dụng innerHTML thay đổi giá trị 1 thẻ
+//Sử dụng innerHTML thay đổi giá trị 1 thẻ, index 0
 li_item[0].innerHTML = "abc text";
 
 //#4.4 getElementsByClassName
@@ -99,6 +100,7 @@ console.log(el_id);
 el_id.innerHTML = "Something about me";
 
 //#4.6 querySelector
+// chọn id sử dụng '#', class '.', tag name 'a'
 //chọn phần tử có id là "heading_title" và thay đổi nội dung của nó
 let title = document.querySelector("#heading_title");
 console.log(title);
