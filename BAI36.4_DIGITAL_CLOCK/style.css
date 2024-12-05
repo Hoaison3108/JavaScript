@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex; /* tạo ra một khối flexbox */
+  justify-content: center; /* Canh giữa theo chiều ngang */
+  align-items: center; /* Canh giữa theo chiều dọc */
+  background: linear-gradient(to bottom, #6a3093, #a044ff);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock-container {
+  width: 300px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Canh giữa nội dung */
+  display: flex;
+  justify-content: center; /* Canh giữa theo chiều ngang */
+  align-items: center; /* Canh giữa theo chiều dọc */
+}
+
+#clock {
+  font-size: 48px;
+}
