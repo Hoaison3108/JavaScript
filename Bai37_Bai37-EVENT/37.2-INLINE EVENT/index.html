@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>37.2 Inline Event</title>
+</head>
+
+<body>
+    <h1>Học inline event</h1>
+    <button onclick="alert('Bạn đã nhấn vào nút')">Click me!</button>
+    <button onclick="alert('Bạn đã nhấn vào nút'); alert('Thông báo 2')">Click me!</button>
+    <button ondblclick="alert('Bạn đã nhấn đúp chuột')">Click double me!</button>
+
+    <div onmouseover="this.style.backgroundColor = 'red'"
+        onmouseleave="this.parentElement.style.backgroundColor = 'blue'">
+        di chuyển con trỏ
+    </div>
+
+    <input type="text" onkeypress="alert('bạn đã nhấn 1 phím')">
+</body>
+
+</html>
